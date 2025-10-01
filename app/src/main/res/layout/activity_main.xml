@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -13,7 +14,7 @@
         android:layout_height="139dp"
         android:layout_marginBottom="90dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/Sport" />
+        android:src="@drawable/sport" />
 
     <!-- Заголовок "Добро пожаловать!" -->
     <TextView
@@ -115,7 +116,7 @@
         <ImageView
             android:layout_width="38dp"
             android:layout_height="38dp"
-            android:src="@drawable/VK"
+            android:src="@drawable/vk"
             android:scaleType="centerCrop"
             android:layout_margin="8dp" />
 
@@ -123,7 +124,7 @@
         <ImageView
             android:layout_width="38dp"
             android:layout_height="38dp"
-            android:src="@drawable/Gogg"
+            android:src="@drawable/gogg"
             android:scaleType="centerCrop"
             android:layout_margin="8dp" />
 
@@ -151,6 +152,6 @@
         android:layout_width="match_parent"
         android:layout_height="139dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/Sport" />
+        android:src="@drawable/sport" />
 
 </LinearLayout>
